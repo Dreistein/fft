@@ -1,0 +1,16 @@
+[package]
+name = "untitled1"
+version = "0.1.0"
+authors = ["dreistein <stefan.steininger@student.tugraz.at>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.3.0"
+num-complex = "0.3.0"
+
+[lib]
+path = "src/lib.rs"
+name = "fft"
+
